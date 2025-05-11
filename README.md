@@ -70,7 +70,7 @@ ITREK integrates three frameworks:
 
 ### Table 1. ITREK top-k Ranking results using Matrix Factorization as the baseline:
 
-| Backbone | Method            | H@3↑  | N@3↑  | H@5↑   | N@5↑   |
+| Backbone | Method            | HR@3↑  | N@3↑  | HR@5↑   | N@5↑   |
 |----------|-------------------|--------|-------|--------|--------|
 | MF       | Base              | 0.04639 | 0.03272 | 0.0712 | 0.04298 |
 | MF       | ITREKpairwise     | 0.071  | 0.0525 | 0.1085 | 0.068   |
@@ -79,7 +79,7 @@ ITREK integrates three frameworks:
 | MF       | ITREKhybrid       | 0.0768 | 0.0551 | 0.1169 | 0.0715  |
 
 ### Improvement Over Base:
-| Method                | H@3↑   | N@3↑   | H@5↑   | N@5↑   |
+| Method                | HR@3↑   | N@3↑   | HR@5↑   | N@5↑   |
 |-----------------------|--------|--------|--------|--------|
 | ITREKhybrid           | 68.8%  | 69.5%  | 69.6%  | 70.2%  |
 | RecRankerhybrid       | 51.65% | 57.85% | 33.19% | 44.52% |
